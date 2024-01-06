@@ -148,7 +148,7 @@
 
 .amazonPageBody .left {
     width: 20vw;
-    /* background-color: rebeccapurple  ; */
+    background-color: #fff;
     padding: 15px;
 }
 
@@ -166,12 +166,88 @@
 
 .amazonPageBody .right {
     width: 80vw;
-    background-color: red;
+    background-color: #fff;
 }
 
-.right img {
+.offer {
+    padding: 10px;
+}
+
+.offers {
     height: 370px;
     width: 100%;
+}
+
+#delivery {
+    width: 100%;
+}
+
+#discount {
+    width: 100%;
+}
+
+.fashion {
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fashionBody {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.fashoionImg {
+    padding: 5px;
+}
+
+.fashion div img {
+    width: 162px;
+}
+
+.expolerMore {
+    background: #fff;
+}
+
+.expolerMore h2 {
+    padding: 10px;
+}
+
+.pocketImg {
+    display: flex;
+}
+
+.pocketImg img {
+    width: 266px;
+}
+
+.features {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.featureImg {
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    gap: 80px;
+    padding: 20px;
+}
+
+.featureImg img {
+    height: 160px;
+    width: 150px;
+}
+
+.discover {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.featureImg {
+    gap: 20px;
 }
 
 
@@ -258,6 +334,7 @@ ul li {
     overflow: auto;
     text-align: center;
     justify-content: center;
+    color: rgb(163, 161, 161);
 }
 
 .footerBottom {
